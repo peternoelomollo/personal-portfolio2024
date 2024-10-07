@@ -1,0 +1,18 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "my portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "PORTFOLIO WEBSITE"
+  },
+  "author": "NOEL",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

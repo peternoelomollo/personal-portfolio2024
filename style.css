@@ -1,0 +1,177 @@
+
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #E0FBFC;
+            color: #333;
+        }
+        main{
+          background-color: #9DB4C0;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #C2DFE3;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: #fff;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .navbar a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #fff;
+        }
+        .hero h2 {
+            font-size: 4em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+            color: #777;
+        }
+        .about {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 20px;
+            background-color: #5C6B73;
+        }
+        .about .text {
+            width: 45%;
+        }
+        .about .text h3 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .about .text p {
+            font-size: 1.2em;
+            color: #FFF;
+        }
+        .about .image {
+            width: 45%;
+            text-align: center;
+        }
+        .about .image img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .portfolio {
+            padding: 50px 20px;
+            background-color: #9DB4C0;
+        }
+        .portfolio h3 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .portfolio .projects {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .portfolio .projects .project {
+            width: 30%;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .portfolio .projects .project img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .portfolio .projects .project p {
+            font-size: 1.2em;
+            color: #777;
+        }
+        .experience {
+            padding: 50px 20px;
+            background-color: #E0FBFC;
+        }
+        .experience h3 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+           
+        }
+        .experience .jobs {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .experience .jobs .job {
+            width: 45%;
+            margin-bottom: 20px;
+        }
+        .experience .jobs .job h4 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .experience .jobs .job p {
+            font-size: 1.2em;
+            color: #777;
+        }
+        .cta {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #5C6B73;
+            color: #fff;
+        }
+        .cta h3 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .cta p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .button:hover{
+          background-color: blue;
+          cursor: pointer;
+
+        }
+        .cta a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #9DB4C0;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .footer {
+            background-color: #253237;
+            color: #fff;
+            padding: 20px 0;
+        }
+        .footer .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .footer .footer-content .footer-nav {
+            display: flex;
+        }
+        .footer .footer-content .footer-nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: 500;
+        }
+        .footer .footer-content .footer-email {
+            font-size: 1.2em;
+        }
+  
